@@ -6257,7 +6257,7 @@ s=A.OR(h,h,h,h,h,B.ar,h,h,B.a_,B.aG)
 s.snX(B.cY)
 s.sbM(B.Z)
 for(r=c.a,q=0;q<16;++q){p=r[q]
-for(o=b*q,n=o+7,m=n+b-14,o+=8,l=0;l<10;++l){k=p[l]
+for(o=b*q,n=o+7,m=n+b-14,o+=6,l=0;l<10;++l){k=p[l]
 if(k===0)continue
 j=b*l
 i=j+7
