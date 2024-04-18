@@ -26830,16 +26830,18 @@ while(true)switch(s){case 0:q.b=0
 for(p=q.a,o=0;o<12;++o)for(n=0;n<10;++n)p[o][n]=0
 return A.O(null,r)}})
 return A.P($async$qN,r)},
-Q6(a,b){var s,r,q,p=this,o=p.a[b][a]
-if(o===0)return 0
-s=p.NJ(o,a,b)
-r=s.length
-if(r>=2){p.LP(s)
-r=p.b
-q=s.length
-p.b=r+q*q*5
-r=q}A.to("onTap "+a+" "+b+", num: "+r)
-return s.length},
+Q6(a,b){var s,r,q,p,o=this
+if(b>=12||a>=10)return 0
+s=o.a[b][a]
+if(s===0)return 0
+r=o.NJ(s,a,b)
+q=r.length
+if(q>=2){o.LP(r)
+q=o.b
+p=r.length
+o.b=q+p*p*5
+q=p}A.to("onTap "+a+" "+b+", num: "+q)
+return r.length},
 LP(a){var s,r,q,p,o,n,m,l
 for(s=a.length,r=this.a,q=0;q<s;++q){p=a[q]
 r[p.b][p.a]=0}for(o=0;o<10;++o)for(n=0,m=11;m>=0;--m){s=n>0
@@ -26867,13 +26869,13 @@ k=new A.eO(n,o)
 if(n>=0&&s.$1(k))i.push(k);++p
 j=new A.eO(p,o)
 if(p<10&&s.$1(j))i.push(j)}return i},
-M1(){var s,r,q,p,o,n,m,l,k
-for(s=this.a,r=0;r<11;r=q)for(q=r+1,p=0;p<10;p=m){o=s[r]
+M1(){var s,r,q,p,o,n,m,l
+for(s=this.a,r=0;r<11;r=q)for(q=r+1,p=0;p<10;++p){o=s[r]
 n=o[p]
-m=p+1
-l=o[m]
-k=s[q][p]
-if(n===l||n===k)return!1}return!0}}
+if(n===0)continue
+m=o[p+1]
+l=s[q][p]
+if(n===m||n===l)return!1}return!0}}
 A.IN.prototype={
 $1(a){var s,r,q,p,o=a.b,n=a.a
 if(this.a.a[o][n]!==this.b)return!1
