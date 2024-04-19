@@ -27246,7 +27246,7 @@ zH(){var s,r,q
 for(s=this.a,r=0;r<10;++r)for(q=0;q<10;++q)s[r][q]=B.uv.Qq(5)+1},
 MB(){var s,r,q
 for(s=this.a,r=0;r<10;++r)for(q=0;q<10;++q)s[r][q]=0},
-tl(a){if(a>=4)return B.b.gZ(this.r)+3000*(a-4-1)
+tl(a){if(a>=4)return B.b.gZ(this.r)+3000*(a-4+1)
 return this.r[a]},
 QD(a,b){var s,r,q,p,o=this
 if(b>=10||a>=10)return 0
