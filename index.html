@@ -6,22 +6,17 @@
     <title>我的网页</title>
     <!--禁止页面回退-->
     <script language="javascript">
-        document.body.onclick = function(e) {
-            if(e.target.tagName.toLowerCase() === 'a') {
-                e.preventDefault()
-                window.location.replace(e.target.getAttribute('href'))
-            }
+        function dogcart() {
+            window.location.replace('./catfish');
         }
         function dogcart() {
-            alert("hello world");
             window.location.replace('./dogcart');
         }
     </script>
 </head>
 <body>
-    <h1 style="text-align: center;">没有什么好写的 2</h1>
-    <p style="text-align: center;"><a href="./catfish">学前班算数</a></p>
-    <p style="text-align: center;"><a href="./dogcart">消灭星星</a></p>
-    <button id="btn" style="text-align: center;" onclick="dogcart()">消灭星星</button>
+    <h1 style="text-align: center;">一个荒凉的地方</h1>
+    <p style="text-align: center;" onclick="dogcart()">学前班算数</p>
+    <p style="text-align: center;" onclick="dogcart()">消灭星星</p>
 </body>
 </html>
