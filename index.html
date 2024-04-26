@@ -6,10 +6,12 @@
     <title>我的网页</title>
     <!--禁止页面回退-->
     <script language="javascript">
-        history.pushState(null, null, document.URL);
-        window.addEventListener('popstate', function () {
-            history.pushState(null, null, document.URL);
-        });
+        document.body.onclick = function(e) {
+            if(e.target.tagName.toLowerCase() === 'a') {
+                e.preventDefault()
+                window.location.replace(e.target.getAttribute('href'))
+            }
+        }
     </script>
 </head>
 <body>
