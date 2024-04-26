@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <title>我的网页</title>
+    <!--禁止页面回退-->
+    <script language="javascript">
+        history.pushState(null, null, document.URL);
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, document.URL);
+        });
+    </script>
 </head>
 <body>
     <h1 style="text-align: center;">没有什么好写的</h1>
