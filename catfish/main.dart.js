@@ -28092,11 +28092,9 @@ A.Xa.prototype={
 $0(){},
 $S:0}
 A.Xc.prototype={
-$1(a){var s,r
+$1(a){var s
 if(a===B.Z){s=this.a
-r=this.b
-B.b.u(s.d,r)
-r.m()
+B.b.u(s.d,this.b)
 B.b.u(s.a.d.b,this.c)}},
 $S:2}
 A.G8.prototype={
@@ -46078,7 +46076,7 @@ gB2(){return"Remaining Time"},
 gu_(){return"Score of the game"},
 gBi(){return"Circle the numbers that add up to 10."}}
 A.ux.prototype={
-gBj(){return"\u5b66\u524d\u73ed\u7b97\u6570"},
+gBj(){return"\u5b66\u524d\u73ed\u5f00\u73ed"},
 gui(){return"\u5f00\u59cb\u6e38\u620f"},
 gzy(){return"\u7ed3\u675f"},
 gB9(){return"\u91cd\u65b0\u5f00\u59cb"},
