@@ -3,10 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9",
-"assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
-"assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+const RESOURCES = {"assets/AssetManifest.bin": "dc2be781b0bf249aea4550d7110beb12",
+"assets/AssetManifest.bin.json": "1518f8268adb92fcd2e2260c1112e74e",
+"assets/AssetManifest.json": "55d04e277ce990f6879af36a2cd470fe",
+"assets/FontManifest.json": "6a543e15306652e5f518f7dec4557f52",
+"assets/fonts/bubble.ttf": "4a925ab72bc589ee168265a3cab64757",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/NOTICES": "5c55f8d30b3e59653650fc12529b6d3e",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
@@ -22,16 +23,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "5c72f05a1b2724650d9088509f3a381d",
+"flutter_bootstrap.js": "dca714e1dc2873a279b564582cdeeaef",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "2c3808d60afe55ff7828e5582c10d229",
 "/": "2c3808d60afe55ff7828e5582c10d229",
-"main.dart.js": "1ee295b8aea6bf4213dc0a0de402ade5",
+"main.dart.js": "9163d31b997c1b9182258b3487f07a1c",
 "main.dart.mjs": "f5f6dceeb2e438c302b2f371f9c929f8",
-"main.dart.wasm": "a894d8f5138a28cc4458817985abee0c",
+"main.dart.wasm": "9770583cc749f11ff78c56f623d7a9bb",
 "manifest.json": "f7a2d0cc97bbf6d3cdf4be1b42d61c59",
 "version.json": "53ae6ee893bbb65f7d7b9ff995954a34"};
 // The application shell files that are downloaded before a service worker can
