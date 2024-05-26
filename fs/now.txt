@@ -2,3 +2,6 @@ nothing
 
 git clone orangepi@192.168.1.103:github
 
+X natapp
+X ngrok
+Y cpolar
