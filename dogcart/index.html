@@ -64,13 +64,11 @@
 <script>
     function endLoading() {
          loadingView.style.animationPlayState = "paused";
-         console.log('end loading by dart');
+         console.log('end loading');
     }
     var loadingView = document.querySelector('.loading')
-    window.addEventListener('flutter-first-frame', function () {
-         loadingView.style.animationPlayState = "paused";
-         console.log('end loading');
-    });
+    window.addEventListener('flutter-first-frame', endLoading);
+    window.addEventListener('resize', endLoading);
 </script>
 <script src="flutter_bootstrap.js" async></script>
 </body>
