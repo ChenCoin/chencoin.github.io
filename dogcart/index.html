@@ -60,14 +60,18 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<script src="flutter_bootstrap.js" async></script>
 <div class="loading"></div>
 <script>
+    function endLoading() {
+         loadingView.style.animationPlayState = "paused";
+         console.log('end loading by dart');
+    }
     var loadingView = document.querySelector('.loading')
     window.addEventListener('flutter-first-frame', function () {
          loadingView.style.animationPlayState = "paused";
          console.log('end loading');
     });
 </script>
+<script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
