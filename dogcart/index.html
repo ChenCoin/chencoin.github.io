@@ -64,6 +64,7 @@
 <script>
     function endLoading() {
          loadingView.style.animationPlayState = "paused";
+         loadingView.style.display = "none";
          console.log('end loading');
     }
     var loadingView = document.querySelector('.loading')
