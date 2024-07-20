@@ -5,3 +5,5 @@ git clone orangepi@192.168.1.103:github
 X natapp
 X ngrok
 Y cpolar
+
+沙漠旅行 ---- 卡片划动的游戏，上下左右划动卡片，选择策略，生存到最后。
